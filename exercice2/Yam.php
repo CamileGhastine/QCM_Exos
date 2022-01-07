@@ -7,7 +7,7 @@
 /**
  * # Class Yam
  * *Simulate the yam game
- * * count the result of different combinaison for a certain number of rolls
+ * *count the result of different combinaison for a certain number of rolls
  * 
  * @author Camile Ghastine <camile@camile.com>
  */
