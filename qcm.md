@@ -10,7 +10,7 @@ Répondez en choisissant une/des seules et bonne(s) réponse(s) ci-dessous.
 
 [ ] Après l'installation de Git rien n'est nécessaire pour commencer à travailler.
 
-[ ] Renseignez Git sur mon identité avec les commandes suivantes
+[X] Renseignez Git sur mon identité avec les commandes suivantes
 
 ```bash
 git config --global user.name Tony 
@@ -42,10 +42,10 @@ git config --global changes "diff --name-status"
 git config-global alias "changes: diff --name-status"
 ```
 
-[ ] 3
+[X] 3
 
 ```bash
-git config --global alias.changes "git changes diff --name-status"
+git config --global alias.changes "diff --name-status"
 ```
 
 [ ] 4
@@ -66,7 +66,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ] git
 
-[ ] .git
+[X] .git
 
 [ ] save-git
 
@@ -83,7 +83,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ] N'importe quand même pour un fichier nouveau (untracked)
 
-[ ] Une fois le fichier tracké par Git
+[X] Une fois le fichier tracké par Git
 
 ## Question 05
 
@@ -95,7 +95,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ] Un texte court dans un commit rapide avec la commande git commit -m "message"
 
-[ ] Un titre 49 caractères max et un texte plus long avec la commande git commit (ouverture d'un éditeur dans la console)
+[X] Un titre 49 caractères max et un texte plus long avec la commande git commit (ouverture d'un éditeur dans la console)
 
 ## Question 06
 
@@ -113,7 +113,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ] La différence entre les commits de la branche locale et la branch distante récupérer avec un pull
 
-[ ] La différence entre les commits de la branche locale et la branch distante récupérer avec un fetch
+[X] La différence entre les commits de la branche locale et la branch distante récupérer avec un fetch
 
 ## Question 07
 
@@ -127,7 +127,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ] Affiche les logs à partir de deux semaines jusqu'au début first commit
 
-[ ] Affiche les logs depuis deux semaines.
+[x] Affiche les logs depuis deux semaines.
 
 ## Question 08
 
@@ -141,7 +141,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 git blame -L 10,60 
 ```
 
-[ ] 2
+[X] 2
 
 ```bash
 git blame -L 10,60 app.php
@@ -165,7 +165,7 @@ Comment retrouvez le développeur qui a produit un bug dans le fichier app.php d
 
 Répondez en choisissant une seule et bonne réponse ci-dessous.
 
-[ ] 1
+[X] 1
 
 ```bash
 git blame -L 10,60 app.php
@@ -197,7 +197,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ] A chaque fois que j'ai fait un commit.
 
-[ ] lorsqu'on merge dans main la branche dev 
+[X] lorsqu'on merge dans main la branche dev 
 
 [ ] Lorsqu'on rencontre un bug.
 
@@ -209,7 +209,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ] C'est un fichier physique.
 
-[ ] C'est un pointeur sur commit.
+[X] C'est un pointeur sur commit.
 
 [ ] C'est un commit.
 
@@ -219,7 +219,7 @@ Quand Git fait un fast-foward de la branche pour un merge de dev dans main?
 
 Répondez en choisissant une seule et bonne réponse ci-dessous.
 
-[ ] Quand tous les commits de la branche main sont atteignables depuis la branche dev.
+[X] Quand tous les commits de la branche main sont atteignables depuis la branche dev.
 
 [ ] Quand des commits dans main ont avencé par rapport à dev.
 
@@ -233,7 +233,7 @@ git restore category.html
 
 Répondez en choisissant une seule et bonne réponse ci-dessous.
 
-[ ] Marche si le fichier est modifié dans le WD : efface les modifications et garde ce dernier dans le WD.
+[X] Marche si le fichier est modifié dans le WD : efface les modifications et garde ce dernier dans le WD.
 
 [ ] Marche si le fichier est dans la staging : efface les modifications et met ce dernier dans le WD.
 
@@ -257,7 +257,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ] Marche si le fichier est commité : garde les modifications et met ce dernier dans la staging.
 
-[ ] Marche si le fichier est dans la staging : remet le fichier dans le WD sans perte des modifications.
+[X] Marche si le fichier est dans la staging : remet le fichier dans le WD sans perte des modifications.
 
 ## Question 15
 
@@ -309,7 +309,7 @@ C commit (hash ddd)
 C commit revert (hash eee, même état que bbb, annulation des modifications de ccc et de ddd) 
 ```
 
-[ ] 3 Il y a cependant dans la solution ci-dessous aucun conflits possibles
+[X] 3 Il y a cependant dans la solution ci-dessous aucun conflits possibles
 
 ```txt
 C commit (hash aaa)
@@ -331,9 +331,9 @@ Répondez en choisissant une/des bonne(s) réponse(s) ci-dessous.
 
 [ ]  Permet de changer le dernier message de commit avant publication.
 
-[ ]  Permet de changer le dernier message de commit après publication.
+[X]  Permet de changer le dernier message de commit après publication.
 
-[ ]  Permet d'associer des modifications d'un fichier au dernier commit.
+[X]  Permet d'associer des modifications d'un fichier au dernier commit.
 
 [ ]  Permet de supprimer le dernier message de commit avant publication.
 
@@ -347,7 +347,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ]  A supprimer une branche locale
 
-[ ]  A sortir d'une branche non clean pour aller sur autre branche
+[X]  A sortir d'une branche non clean pour aller sur autre branche
 
 [ ]   A sortir d'une branche distante pour aller sur une branche locale.
 
@@ -361,7 +361,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ]  Elle sert merger plusieurs branches à la fois
 
-[ ]  Elle sert à linéariser un historique.
+[X]  Elle sert à linéariser un historique.
 
 [ ] Elle permet d'ajouter des commits de merge oubliés.
 
@@ -375,7 +375,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ]  Elle sert rechercher un commit distant.
 
-[ ]  Elle sert à récupérer un commit sur une autre branche que l'on souhaite supprimer.
+[X]  Elle sert à récupérer un commit sur une autre branche que l'on souhaite supprimer.
 
 [ ] Elle sert à permuter des commits sur une autre branche que l'on souhaite garder.
 
@@ -387,7 +387,7 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ]  Elle sert supprimer un commit par dichotomie.
 
-[ ]  Elle sert trouver un commit par dichotomie qui produit un bug dans l'application.
+[X]  Elle sert trouver un commit par dichotomie qui produit un bug dans l'application.
 
 [ ]  Elle sert supprimer un commit par dichotomie qui produit un bug dans l'application.
 
@@ -401,6 +401,5 @@ Répondez en choisissant une seule et bonne réponse ci-dessous.
 
 [ ]  Elle permet trouver une branche distante.
 
-[ ]  Elle permet d'ajotuer une branche distante (remote) dans son dépôt local
-
+[X]  Elle permet d'ajotuer une branche distante (remote) dans son dépôt local
 
