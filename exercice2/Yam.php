@@ -2,8 +2,6 @@
 
 class Yam
 {
-    private array $diceRoll;
-
     /**
      * # rollDice : roll randomly 5 dices X times 
      *
