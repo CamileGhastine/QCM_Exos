@@ -40,10 +40,9 @@ class Yam
         $count = 0;
 
         foreach ($rollDice as $oneRoll) {
-            for($i=0; $i<5; $i++) {
+            for ($i = 0; $i < 5; $i++) {
                 if (isset(array_count_values($oneRoll)[$i]) && array_count_values($oneRoll)[$i] === 5) $count++;
             }
-            
         }
 
         return $count;
@@ -61,10 +60,9 @@ class Yam
         $count = 0;
 
         foreach ($rollDice as $oneRoll) {
-            for($i=0; $i<5; $i++) {
+            for ($i = 0; $i < 5; $i++) {
                 if (isset(array_count_values($oneRoll)[$i]) && array_count_values($oneRoll)[$i] === 4) $count++;
             }
-            
         }
 
         return $count;
@@ -72,8 +70,17 @@ class Yam
 
     public function countThreeOfAKind(array $rollDice): int
     {
+        $count = 0;
+
+        foreach ($rollDice as $oneRoll) {
+            for ($i = 0; $i < 5; $i++) {
+                if (isset(array_count_values($oneRoll)[$i]) && array_count_values($oneRoll)[$i] === 3) $count++;
+            }
+        }
+
+        return $count;
     }
 }
 
 $a = new Yam;
-var_dump($a->countFourOfAKinD($a->rollDice(1000)));
+var_dump($a->countThreeOfAKind($a->rollDice(1000)));
