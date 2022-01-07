@@ -2,9 +2,25 @@
 
 class Yam
 {
-    public function test()
+    private array $diceRoll;
+
+    public function rollDice(): array
     {
-        echo 'good';
+    }
+
+    public function countYam(array $rollDice): int
+    {
+
+    }
+
+    public function countFourOfAKinD(array $rollDice): int
+    {
+        
+    }
+
+    public function countThreeOfAKind(array $rollDice): int
+    {
+        
     }
 }
 
