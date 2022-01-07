@@ -16,7 +16,7 @@ class Yam
         $diceRoll = [];
 
         for ($j = 1; $j <= $numberOfThrow; $j++) {
-           
+
             $oneRoll = [];
 
             for ($i = 1; $i <= 5; $i++) {
@@ -30,6 +30,16 @@ class Yam
 
     public function countYam(array $rollDice): int
     {
+        $count = 0;
+
+        foreach ($rollDice as $oneRoll) {
+            for($i=0; $i<5; $i++) {
+                if (isset(array_count_values($oneRoll)[$i]) && array_count_values($oneRoll)[$i] === 5) $count++;
+            }
+            
+        }
+
+        return $count;
     }
 
     public function countFourOfAKinD(array $rollDice): int
@@ -42,4 +52,4 @@ class Yam
 }
 
 $a = new Yam;
-var_dump($a->rollDice(2));
+var_dump($a->countYam($a->rollDice(1000)));
