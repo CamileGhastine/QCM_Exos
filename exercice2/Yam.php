@@ -49,6 +49,13 @@ class Yam
         return $count;
     }
 
+    /**
+     * countFourOfAKinD : count the number of four of a kind (4 same dices) for all the dice rolls
+     *
+     * @param array $rollDice
+     * 
+     * @return integer
+     */
     public function countFourOfAKinD(array $rollDice): int
     {
         $count = 0;
