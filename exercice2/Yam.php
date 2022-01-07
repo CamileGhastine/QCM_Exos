@@ -4,6 +4,13 @@ class Yam
 {
     private array $diceRoll;
 
+    /**
+     * # rollDice : roll randomly 5 dices X times 
+     *
+     * @param integer $numberOfThrow
+     * 
+     * @return array
+     */
     public function rollDice(int $numberOfThrow): array
     {
         $diceRoll = [];
