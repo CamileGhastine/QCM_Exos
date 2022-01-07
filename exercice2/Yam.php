@@ -28,6 +28,13 @@ class Yam
         return $diceRoll;
     }
 
+    /**
+     * countYam : count the number of yam for all the dice rolls
+     *
+     * @param array $rollDice
+     * 
+     * @return integer
+     */
     public function countYam(array $rollDice): int
     {
         $count = 0;
