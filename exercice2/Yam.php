@@ -1,5 +1,16 @@
 <?php
 
+/**
+ * This file is a class which can be use to simulate the Yam game.
+ */
+
+/**
+ * # Class Yam
+ * *Simulate the yam game
+ * * count the result of different combinaison for a certain number of rolls
+ * 
+ * @author Camile Ghastine <camile@camile.com>
+ */
 class Yam
 {
     /**
@@ -85,6 +96,3 @@ class Yam
         return $count;
     }
 }
-
-$a = new Yam;
-var_dump($a->countThreeOfAKind($a->rollDice(1000)));
